@@ -1,5 +1,6 @@
 package io.github.suuzanemoura;
 
+import io.github.suuzanemoura.facade.Facade;
 import io.github.suuzanemoura.singleton.SingletonEager;
 import io.github.suuzanemoura.singleton.SingletonLazy;
 import io.github.suuzanemoura.singleton.SingletonLazyHolder;
@@ -46,5 +47,12 @@ public class Test {
         robot.move();
         robot.move();
         robot.move();
+
+        // Facade
+
+        Facade facade = new Facade();
+        facade.migrateCustomer("Suzane", "22050002");
+
     }
+
 }
