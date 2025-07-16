@@ -6,6 +6,9 @@ Este projeto é um laboratório prático para estudo e aplicação dos principai
 
 O repositório contém exemplos simples e didáticos para padrões estruturais, comportamentais e criacionais, com códigos comentados para facilitar o aprendizado.
 
+> Projeto desenvolvido durante o **Santander Bootcamp 2023: FullStack Angular + Java.**
+
+
 ## Tecnologias Utilizadas
 
 - Java 11+
